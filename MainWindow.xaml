@@ -7,6 +7,38 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="599*"/>
+            <ColumnDefinition Width="201*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="DGMain" FontSize="20"/>
+        <ComboBox Grid.Column="1" Width="100" Height="40" FontSize="20" Name="CBMain">
+            <TextBlock FontSize="20">P1_1</TextBlock>
+            <TextBlock FontSize="20">P1_2</TextBlock>
+            <TextBlock FontSize="20">P1_3</TextBlock>
+            <TextBlock FontSize="20">P1_4</TextBlock>
+            <TextBlock FontSize="20">P1_5</TextBlock>
+            <TextBlock FontSize="20">P1_6</TextBlock>
+            <TextBlock FontSize="20">P1_7</TextBlock>
+            <TextBlock FontSize="20">P2_1</TextBlock>
+            <TextBlock FontSize="20">P2_2</TextBlock>
+            <TextBlock FontSize="20">P2_3</TextBlock>
+            <TextBlock FontSize="20">P2_4</TextBlock>
+            <TextBlock FontSize="20">H1_1</TextBlock>
+            <TextBlock FontSize="20">H1_2</TextBlock>
+            <TextBlock FontSize="20">H1_3</TextBlock>
+            <TextBlock FontSize="20">H2_1</TextBlock>
+            <TextBlock FontSize="20">H2_2</TextBlock>
+            <TextBlock FontSize="20">H2_3</TextBlock>
+            <TextBlock FontSize="20">H3_1</TextBlock>
+            <TextBlock FontSize="20">H3_2</TextBlock>
+            <TextBlock FontSize="20">H3_3</TextBlock>
+            <TextBlock FontSize="20">H4_1</TextBlock>
+            <TextBlock FontSize="20">H4_2</TextBlock>
+            <TextBlock FontSize="20">H4_3</TextBlock>
+            <TextBlock FontSize="20">H4_4</TextBlock>
+            <TextBlock FontSize="20">H4_5</TextBlock>
+        </ComboBox>
+        <Button Grid.Column="1" Content="Apply" Width="100" Height="40" FontSize="20" Background="LightGreen" Margin="0 200 0 0" Name="BMain" Click="BMain_Click"/>
     </Grid>
 </Window>
